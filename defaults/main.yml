@@ -1,4 +1,5 @@
 ---
 # defaults file for terminate-ec2
-ec2_id:
-region:
+instance :
+  id     :
+  region :
