@@ -2,7 +2,7 @@
 # tasks file for terminate-ec2
 - name: Terminate ec2 instance
   ec2:
-    instance_ids: "{{ ec2_id }}"
-    region: "{{ region }}"
+    instance_ids: "{{ instance.id }}"
+    region: "{{ instance.region }}"
     state: absent
     wait: no
