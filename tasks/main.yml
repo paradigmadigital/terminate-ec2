@@ -1,5 +1,5 @@
 ---
-# tasks file for terminate-ec2
+# tasks file for terminate-instance
 - name: Terminate ec2 instance
   ec2:
     instance_ids: "{{ instance.id }}"

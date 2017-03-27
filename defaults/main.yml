@@ -1,5 +1,5 @@
 ---
-# defaults file for terminate-ec2
+# defaults file for terminate-instance
 instance :
   id     :
   region :
