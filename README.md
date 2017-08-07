@@ -5,8 +5,8 @@ Terminate an ec2 instance
 
 # Role Variables
 
+* `ec2_id`   : Instance's id
 * `instance` : Dictionary containing the information of the instance
-  * `id`     : ID of the instance
   * `region` : Region where the instance lives
 
 ## Example playbook
